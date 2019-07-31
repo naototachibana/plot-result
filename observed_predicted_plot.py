@@ -7,7 +7,7 @@ import os
 import re
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 
-class simple_plot :
+class observed_predicted_plot :
     def __init__(self, df_obs,df_pred, xlabel = None, ylabel = None):
         self.df_obs = df_obs
         self.df_pred = df_pred
